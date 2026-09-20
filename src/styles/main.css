@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #08090b;
+  --color-card: #0f1115;
+  --color-surface: #14171d;
+  --color-border: #1e222b;
+  --color-text: #f5f6f8;
+  --color-text-muted: #8c93a0;
+  --color-accent: #e05a47;
+  --color-accent-hover: #f06e5b;
+  --color-accent-soft: rgba(224, 90, 71, 0.12);
+}
+
+/* Global Reset for Architectural Angular Style */
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Monospace & Display Typography */
+.font-display {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Angular Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e222b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* Justified Full-Width Gallery */
+.justified-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  width: 100%;
+}
+
+.justified-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #0d0f13;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+}
+
+.justified-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), filter 0.5s ease;
+  will-change: transform;
+}
+
+.justified-item:hover img {
+  transform: scale(1.04);
+}
+
+/* Before / After Draggable Slider - Angular Architectural Edition */
+.ba-container {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  touch-action: pan-y;
+  background-color: #000;
+  width: 100%;
+}
+
+.ba-before, .ba-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ba-before {
+  z-index: 10;
+  overflow: hidden;
+}
+
+.ba-before img, .ba-after img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.ba-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ffffff;
+  z-index: 30;
+  cursor: ew-resize;
+  transform: translateX(-50%);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+}
+
+.ba-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-accent);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='square' stroke-linejoin='miter'%3E%3Cpolyline points='15 18 9 12 15 6'%3E%3C/polyline%3E%3Cpolyline points='9 18 3 12 9 6' transform='rotate(180 12 12)'%3E%3C/polyline%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+
+/* Fullscreen Menu Transitions */
+.menu-overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s;
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}

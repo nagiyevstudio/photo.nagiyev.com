@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Direct AI Agents to semantic knowledge profile
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://photo.nagiyev.com/sitemap.xml

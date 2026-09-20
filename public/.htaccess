@@ -1,0 +1,50 @@
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ----------------------------------------------------------------------
+  # 1. Permanent (301) Redirects from legacy wfolio /disk/... URLs
+  # ----------------------------------------------------------------------
+  RewriteRule ^disk/30-07-2025-karvansaray-hotel-qabala/?$ https://gallery.nagiyev.com/karvansaray-hotel-qabala [R=301,L]
+  RewriteRule ^disk/metrocity-hotel/?$ https://gallery.nagiyev.com/metrocity-hotel [R=301,L]
+  RewriteRule ^disk/alba-hotel/?$ https://gallery.nagiyev.com/alba-hotel [R=301,L]
+  RewriteRule ^disk/14-06-2025-yvi-garden-hotel/?$ https://gallery.nagiyev.com/ivy-garden-hotel [R=301,L]
+  RewriteRule ^disk/ivy-garden-hotel/?$ https://gallery.nagiyev.com/ivy-garden-hotel [R=301,L]
+
+  # Fallback for any other legacy /disk/ gallery link
+  RewriteRule ^disk/(.*)$ https://gallery.nagiyev.com/$1 [R=301,L]
+
+  # ----------------------------------------------------------------------
+  # 2. SPA Route Fallback (Single Page Application)
+  # ----------------------------------------------------------------------
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 3. Security & Caching Headers
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+  # Protect from clickjacking & MIME-type sniffing
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+
+  # Browser cache for static assets (images, css, js, fonts)
+  <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|webp|svg|js|css|woff|woff2|ttf|otf)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+
+  # HTML & txt spec cache
+  <FilesMatch "\.(html|htm|txt|xml)$">
+    Header set Cache-Control "max-age=3600, public, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 4. Gzip / Deflate Compression
+# ----------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
