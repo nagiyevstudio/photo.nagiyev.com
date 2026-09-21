@@ -13,6 +13,7 @@ import { renderFineArtView } from './views/FineArtView.js';
 import { renderAiStagingView } from './views/AiStagingView.js';
 import { renderClientVaultView } from './views/ClientVaultView.js';
 import { renderContactView } from './views/ContactView.js';
+import { setupProtectedEmails } from './utils/obfuscate.js';
 
 // Legacy wfolio /disk/ redirects to gallery.nagiyev.com
 const checkLegacyDiskRedirects = () => {
@@ -148,6 +149,9 @@ class App {
       (lang) => this.setLang(lang)
     );
     this.appEl.appendChild(footer);
+
+    // 5. Initialize protected email triggers
+    setupProtectedEmails(this.appEl);
   }
 }
 

@@ -1,3 +1,5 @@
+import { setupProtectedEmails } from '../utils/obfuscate.js';
+
 export function createFullscreenMenu(t, currentLang, onLangChange) {
   const overlay = document.createElement('div');
   overlay.id = 'fullscreen-menu';
@@ -92,7 +94,7 @@ export function createFullscreenMenu(t, currentLang, onLangChange) {
         <div class="flex flex-wrap items-center gap-4 sm:gap-5 uppercase tracking-wider">
           <a href="https://wa.me/994503222142" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[var(--color-accent)] transition-colors">WhatsApp</a>
           <a href="https://t.me/faiknagiyev" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[var(--color-accent)] transition-colors">Telegram</a>
-          <a href="mailto:faik@nagiyev.com" class="text-white hover:text-[var(--color-accent)] transition-colors">faik@nagiyev.com</a>
+          <a href="#" data-protected-email class="text-white hover:text-[var(--color-accent)] transition-colors cursor-pointer"><span data-email-text>faik&#64;nagiyev.com</span></a>
         </div>
       </div>
     </div>
@@ -123,6 +125,9 @@ export function createFullscreenMenu(t, currentLang, onLangChange) {
       }
     });
   });
+
+  // Initialize protected email triggers in menu
+  setupProtectedEmails(overlay);
 
   return { element: overlay, open, close };
 }

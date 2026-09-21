@@ -145,7 +145,7 @@ export const translations = {
         },
         {
           q: "How can I book a photoshoot or inquire about rates?",
-          a: "You can reach out directly via WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev), or email (faik@nagiyev.com) with your location, project timeline, and approximate square footage."
+          a: "You can reach out directly via WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev), or email (faik [at] nagiyev.com) with your location, project timeline, and approximate square footage."
         }
       ]
     },
@@ -310,7 +310,7 @@ export const translations = {
         },
         {
           q: "Çəkiliş sifariş etmək üçün necə əlaqə saxlaya bilərəm?",
-          a: "Birbaşa WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev) və ya e-poçt (faik@nagiyev.com) vasitəsilə layihəniz haqqında məlumat göndərə bilərsiniz."
+          a: "Birbaşa WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev) və ya e-poçt (faik [at] nagiyev.com) vasitəsilə layihəniz haqqında məlumat göndərə bilərsiniz."
         }
       ]
     },
@@ -475,7 +475,7 @@ export const translations = {
         },
         {
           q: "Как забронировать съемку или запросить расчет стоимости?",
-          a: "Напишите напрямую в WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev) или на почту faik@nagiyev.com с указанием локации, площади объекта и примерных сроков."
+          a: "Напишите напрямую в WhatsApp (+994 50 322 21 42), Telegram (@faiknagiyev) или на почту faik [at] nagiyev.com с указанием локации, площади объекта и примерных сроков."
         }
       ]
     },

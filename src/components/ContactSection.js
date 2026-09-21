@@ -64,10 +64,11 @@ export function createContactSection(t) {
           <span class="text-[11px] text-[var(--color-text-muted)] font-mono">+994 50 322 21 42</span>
         </a>
 
-        <!-- Email -->
+        <!-- Email (Protected against scrapers) -->
         <a 
-          href="mailto:faik@nagiyev.com" 
-          class="p-6 rounded-2xl border border-current/10 bg-[var(--color-surface)] hover:border-amber-500/50 hover:shadow-lg transition-all group flex flex-col items-center justify-center text-center"
+          href="#" 
+          data-protected-email
+          class="p-6 rounded-2xl border border-current/10 bg-[var(--color-surface)] hover:border-amber-500/50 hover:shadow-lg transition-all group flex flex-col items-center justify-center text-center cursor-pointer"
         >
           <div class="w-12 h-12 rounded-full bg-amber-500/10 text-amber-500 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +76,7 @@ export function createContactSection(t) {
             </svg>
           </div>
           <span class="text-xs uppercase tracking-wider font-semibold text-current mb-1">Email</span>
-          <span class="text-[11px] text-[var(--color-text-muted)] font-mono">faik@nagiyev.com</span>
+          <span class="text-[11px] text-[var(--color-text-muted)] font-mono" data-email-text>faik&#64;nagiyev.com</span>
         </a>
       </div>
 

@@ -106,14 +106,17 @@ export function renderContactView(t) {
             </div>
           </a>
 
-          <!-- Email -->
+          <!-- Email (Protected against scrapers) -->
           <a 
-            href="mailto:faik@nagiyev.com" 
-            class="p-6 bg-[#0f1115] hover:bg-[#141820] transition-all group flex flex-col justify-between h-36"
+            href="#" 
+            data-protected-email
+            class="p-6 bg-[#0f1115] hover:bg-[#141820] transition-all group flex flex-col justify-between h-36 cursor-pointer"
           >
             <div class="text-[10px] font-mono text-amber-400 tracking-widest uppercase">OFFICIAL EMAIL</div>
             <div>
-              <div class="text-base font-display font-bold text-white uppercase group-hover:text-amber-400 transition-colors">faik@nagiyev.com →</div>
+              <div class="text-base font-display font-bold text-white uppercase group-hover:text-amber-400 transition-colors">
+                <span data-email-text>faik&#64;nagiyev.com</span> →
+              </div>
               <div class="text-xs font-mono text-white/60 mt-1">Commissions & PR</div>
             </div>
           </a>
