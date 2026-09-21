@@ -124,7 +124,7 @@ export function renderContactView(t) {
           <div class="text-[11px] font-mono text-[var(--color-accent)] tracking-[0.25em] uppercase mb-4">
             CURATED PORTFOLIOS & PROFILES
           </div>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 text-xs font-mono">
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 text-xs font-mono">
             <a 
               href="https://35photo.pro/faik" 
               target="_blank" 
@@ -168,15 +168,6 @@ export function renderContactView(t) {
               class="p-3.5 bg-[#0f1115] hover:bg-[#161a22] text-white/80 hover:text-[var(--color-accent)] transition-colors flex items-center justify-between"
             >
               <span>Facebook</span>
-              <span>↗</span>
-            </a>
-            <a 
-              href="https://commons.wikimedia.org/wiki/Special:ListFiles/Faik_Nagiyev" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="p-3.5 bg-[#0f1115] hover:bg-[#161a22] text-white/80 hover:text-[var(--color-accent)] transition-colors flex items-center justify-between"
-            >
-              <span>Wikimedia</span>
               <span>↗</span>
             </a>
           </div>

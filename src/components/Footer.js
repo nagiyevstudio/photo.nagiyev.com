@@ -33,9 +33,6 @@ export function createFooter(t, currentLang, onLangChange) {
         <a href="https://www.facebook.com/faiknagiyev.photography" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--color-accent)] transition-colors">
           Facebook
         </a>
-        <a href="https://commons.wikimedia.org/wiki/Special:ListFiles/Faik_Nagiyev" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--color-accent)] transition-colors">
-          Wikimedia
-        </a>
         <a href="https://t.me/faiknagiyev" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--color-accent)] transition-colors">
           Telegram
         </a>
