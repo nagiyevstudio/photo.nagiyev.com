@@ -160,7 +160,7 @@ export const translations = {
       location: "Based in Baku, Azerbaijan • Available Worldwide"
     },
     footer: {
-      copyright: "© 2026 Faik Nagiyev. All rights reserved.",
+      copyright: "© 2007 – 2026 Faik Nagiyev. All rights reserved.",
       tagline: "High-End Architectural Photography & Spatial AI Production."
     }
   },
@@ -325,7 +325,7 @@ export const translations = {
       location: "Bakı, Azərbaycan • Beynəlxalq Səfərlər və Uzaqdan Əməkdaşlıq Mümkündür"
     },
     footer: {
-      copyright: "© 2026 Faiq Nağıyev. Bütün hüquqlar qorunur.",
+      copyright: "© 2007 – 2026 Faiq Nağıyev. Bütün hüquqlar qorunur.",
       tagline: "Yüksək Səviyyəli Memarlıq Fotoqrafiyası və İntellektual Məkan Prodakşnı."
     }
   },
@@ -490,7 +490,7 @@ export const translations = {
       location: "Баку, Азербайджан • Выезды по всему миру и удаленный AI-стайлинг"
     },
     footer: {
-      copyright: "© 2026 Фаик Нагиев. Все права защищены.",
+      copyright: "© 2007 – 2026 Фаик Нагиев. Все права защищены.",
       tagline: "Премиальная архитектурная фотография и интеллектуальный пространственный продакшн."
     }
   }
