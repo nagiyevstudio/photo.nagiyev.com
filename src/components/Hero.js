@@ -51,11 +51,11 @@ export function createHero(t, heroImages) {
           </svg>
         </a>
 
-        <a href="#client-vault" class="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/25 text-xs sm:text-sm font-semibold tracking-widest uppercase transition-all transform hover:-translate-y-1">
+        <a href="#client-vault" class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white backdrop-blur-md text-xs sm:text-sm font-semibold tracking-widest uppercase transition-all transform hover:-translate-y-1">
           ${t.hero.ctaSecondary}
         </a>
 
-        <a href="#contact" class="px-7 py-4 rounded-full border border-white/20 hover:border-[var(--color-accent)] text-white text-xs sm:text-sm font-semibold tracking-widest uppercase transition-all">
+        <a href="#contact" class="px-7 py-4 bg-white/5 hover:bg-white/15 text-white hover:text-[var(--color-accent)] text-xs sm:text-sm font-semibold tracking-widest uppercase transition-all">
           ${t.hero.ctaContact}
         </a>
       </div>
@@ -97,10 +97,10 @@ export function createHero(t, heroImages) {
 
         <!-- Mini Arrow Controls -->
         <div class="flex items-center space-x-2">
-          <button id="hero-prev" aria-label="Previous slide" class="p-1.5 rounded-full bg-white/10 hover:bg-white/25 border border-white/20 text-white transition-colors">
+          <button id="hero-prev" aria-label="Previous slide" class="p-1.5 bg-white/10 hover:bg-white/25 text-white transition-colors">
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
           </button>
-          <button id="hero-next" aria-label="Next slide" class="p-1.5 rounded-full bg-white/10 hover:bg-white/25 border border-white/20 text-white transition-colors">
+          <button id="hero-next" aria-label="Next slide" class="p-1.5 bg-white/10 hover:bg-white/25 text-white transition-colors">
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
           </button>
         </div>

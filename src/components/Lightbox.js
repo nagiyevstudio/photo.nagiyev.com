@@ -10,12 +10,12 @@ export function createLightbox() {
         1 / 1
       </div>
       <div class="flex items-center space-x-2">
-        <button id="lb-zoom" aria-label="Toggle zoom" class="p-2.5 bg-black/60 border border-white/20 hover:border-[var(--color-accent)] text-white transition-colors">
+        <button id="lb-zoom" aria-label="Toggle zoom" class="p-2.5 bg-black/60 hover:bg-black/80 text-white/80 hover:text-white transition-colors">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
           </svg>
         </button>
-        <button id="lb-close" aria-label="Close viewer" class="p-2.5 bg-black/60 border border-white/20 hover:border-[var(--color-accent)] text-white transition-colors">
+        <button id="lb-close" aria-label="Close viewer" class="p-2.5 bg-black/60 hover:bg-black/80 text-white/80 hover:text-white transition-colors">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
@@ -26,7 +26,7 @@ export function createLightbox() {
     <!-- Center Stage: Main Image & Arrow Nav -->
     <div class="relative flex-1 flex items-center justify-center overflow-hidden my-2">
       <!-- Prev Button -->
-      <button id="lb-prev" aria-label="Previous photo" class="absolute left-2 sm:left-6 z-20 p-3 bg-black/70 border border-white/20 hover:border-[var(--color-accent)] hover:bg-[var(--color-accent)] text-white backdrop-blur-md transition-all">
+      <button id="lb-prev" aria-label="Previous photo" class="absolute left-2 sm:left-6 z-20 p-3 bg-black/60 hover:bg-black/90 text-white/80 hover:text-white backdrop-blur-md transition-all">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
@@ -38,7 +38,7 @@ export function createLightbox() {
       </div>
 
       <!-- Next Button -->
-      <button id="lb-next" aria-label="Next photo" class="absolute right-2 sm:right-6 z-20 p-3 bg-black/70 border border-white/20 hover:border-[var(--color-accent)] hover:bg-[var(--color-accent)] text-white backdrop-blur-md transition-all">
+      <button id="lb-next" aria-label="Next photo" class="absolute right-2 sm:right-6 z-20 p-3 bg-black/60 hover:bg-black/90 text-white/80 hover:text-white backdrop-blur-md transition-all">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
