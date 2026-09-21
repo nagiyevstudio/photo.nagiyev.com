@@ -64,8 +64,24 @@ export function createLightbox() {
   const btnZoom = overlay.querySelector('#lb-zoom');
 
   function update() {
-    if (!currentList[currentIndex]) return;
-    imgEl.src = currentList[currentIndex].src;
+    const item = currentList[currentIndex];
+    if (!item) return;
+
+    // 1. Instant display with cached thumbnail
+    if (item.thumb && item.thumb !== item.src) {
+      imgEl.src = item.thumb;
+      // 2. Preload lossless master original in background
+      const fullImg = new Image();
+      fullImg.src = item.src;
+      fullImg.onload = () => {
+        if (currentList[currentIndex] === item) {
+          imgEl.src = item.src;
+        }
+      };
+    } else {
+      imgEl.src = item.src;
+    }
+
     counterEl.textContent = `${currentIndex + 1} / ${currentList.length}`;
     resetZoom();
   }

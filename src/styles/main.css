@@ -61,8 +61,8 @@ body {
 /* Justified Full-Width Gallery */
 .justified-gallery {
   display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
+  flex-direction: column;
+  gap: 12px;
   width: 100%;
 }
 

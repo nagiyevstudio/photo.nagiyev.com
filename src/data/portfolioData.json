@@ -4,49 +4,57 @@
       "src": "/images/hero/fool-mooon-logo.jpg",
       "width": 4340,
       "height": 2364,
-      "aspect": 1.8359
+      "aspect": 1.8359,
+      "thumb": "/images/thumbs/hero/fool-mooon-logo.webp"
     },
     {
       "src": "/images/hero/img-0840-hdr-edit.jpg",
       "width": 5416,
       "height": 3611,
-      "aspect": 1.4999
+      "aspect": 1.4999,
+      "thumb": "/images/thumbs/hero/img-0840-hdr-edit.webp"
     },
     {
       "src": "/images/hero/img-0858-hdr.jpg",
       "width": 5415,
       "height": 3610,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/hero/img-0858-hdr.webp"
     },
     {
       "src": "/images/hero/img-3206-edit.jpg",
       "width": 3000,
       "height": 2000,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/hero/img-3206-edit.webp"
     },
     {
       "src": "/images/hero/img-4604-hdr-edit.jpg",
       "width": 5452,
       "height": 3635,
-      "aspect": 1.4999
+      "aspect": 1.4999,
+      "thumb": "/images/thumbs/hero/img-4604-hdr-edit.webp"
     },
     {
       "src": "/images/hero/img-4882.jpg",
       "width": 2736,
       "height": 1824,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/hero/img-4882.webp"
     },
     {
       "src": "/images/hero/img-5481-edit.jpg",
       "width": 5472,
       "height": 3648,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/hero/img-5481-edit.webp"
     },
     {
       "src": "/images/hero/img-7249-edit.jpg",
       "width": 5472,
       "height": 3648,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/hero/img-7249-edit.webp"
     }
   ],
   "architecture": [
@@ -54,157 +62,183 @@
       "src": "/images/architecture/1685708740-c9d791.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685708740-c9d791.webp"
     },
     {
       "src": "/images/architecture/1685708811-f52ee1.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685708811-f52ee1.webp"
     },
     {
       "src": "/images/architecture/1685709081-6f2eca.jpg",
       "width": 2731,
       "height": 4096,
-      "aspect": 0.6667
+      "aspect": 0.6667,
+      "thumb": "/images/thumbs/architecture/1685709081-6f2eca.webp"
     },
     {
       "src": "/images/architecture/1685709134-df6db3.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685709134-df6db3.webp"
     },
     {
       "src": "/images/architecture/1685709665-0cd489.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685709665-0cd489.webp"
     },
     {
       "src": "/images/architecture/1685709981-5d6f14.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685709981-5d6f14.webp"
     },
     {
       "src": "/images/architecture/1685710012-1560bf.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1685710012-1560bf.webp"
     },
     {
       "src": "/images/architecture/1686310692-e8e88d.jpg",
       "width": 4096,
       "height": 2731,
-      "aspect": 1.4998
+      "aspect": 1.4998,
+      "thumb": "/images/thumbs/architecture/1686310692-e8e88d.webp"
     },
     {
       "src": "/images/architecture/1686818863-db6875.jpg",
       "width": 720,
       "height": 445,
-      "aspect": 1.618
+      "aspect": 1.618,
+      "thumb": "/images/thumbs/architecture/1686818863-db6875.webp"
     },
     {
       "src": "/images/architecture/baku-night.jpg",
       "width": 3618,
       "height": 5457,
-      "aspect": 0.663
+      "aspect": 0.663,
+      "thumb": "/images/thumbs/architecture/baku-night.webp"
     },
     {
       "src": "/images/architecture/city-reflection.jpg",
       "width": 5108,
       "height": 2913,
-      "aspect": 1.7535
+      "aspect": 1.7535,
+      "thumb": "/images/thumbs/architecture/city-reflection.webp"
     },
     {
       "src": "/images/architecture/dji-0004-edit.jpg",
       "width": 4856,
       "height": 3640,
-      "aspect": 1.3341
+      "aspect": 1.3341,
+      "thumb": "/images/thumbs/architecture/dji-0004-edit.webp"
     },
     {
       "src": "/images/architecture/hotel-00002.jpg",
       "width": 5391,
       "height": 3594,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/architecture/hotel-00002.webp"
     },
     {
       "src": "/images/architecture/img-4444-edit.jpg",
       "width": 5048,
       "height": 3491,
-      "aspect": 1.446
+      "aspect": 1.446,
+      "thumb": "/images/thumbs/architecture/img-4444-edit.webp"
     },
     {
       "src": "/images/architecture/img-4604-hdr-edit.jpg",
       "width": 5452,
       "height": 3635,
-      "aspect": 1.4999
+      "aspect": 1.4999,
+      "thumb": "/images/thumbs/architecture/img-4604-hdr-edit.webp"
     },
     {
       "src": "/images/architecture/img-4681-2-3-tonemapped.jpg",
       "width": 5163,
       "height": 3448,
-      "aspect": 1.4974
+      "aspect": 1.4974,
+      "thumb": "/images/thumbs/architecture/img-4681-2-3-tonemapped.webp"
     },
     {
       "src": "/images/architecture/img-4686-edit.jpg",
       "width": 5472,
       "height": 3648,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/architecture/img-4686-edit.webp"
     },
     {
       "src": "/images/architecture/img-4697-edit.jpg",
       "width": 3648,
       "height": 5472,
-      "aspect": 0.6667
+      "aspect": 0.6667,
+      "thumb": "/images/thumbs/architecture/img-4697-edit.webp"
     },
     {
       "src": "/images/architecture/img-4736-2.jpg",
       "width": 5133,
       "height": 3309,
-      "aspect": 1.5512
+      "aspect": 1.5512,
+      "thumb": "/images/thumbs/architecture/img-4736-2.webp"
     },
     {
       "src": "/images/architecture/img-5254-edit-edit.jpg",
       "width": 5456,
       "height": 2526,
-      "aspect": 2.1599
+      "aspect": 2.1599,
+      "thumb": "/images/thumbs/architecture/img-5254-edit-edit.webp"
     },
     {
       "src": "/images/architecture/img-6540-hdr.jpg",
       "width": 5458,
       "height": 3639,
-      "aspect": 1.4999
+      "aspect": 1.4999,
+      "thumb": "/images/thumbs/architecture/img-6540-hdr.webp"
     },
     {
       "src": "/images/architecture/img-7128-enhanced-nr-hdr-edit.jpg",
       "width": 5442,
       "height": 3628,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/architecture/img-7128-enhanced-nr-hdr-edit.webp"
     },
     {
       "src": "/images/architecture/r-208-0033.jpg",
       "width": 5394,
       "height": 3596,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/architecture/r-208-0033.webp"
     },
     {
       "src": "/images/architecture/skyhotel-502-10.jpg",
       "width": 5131,
       "height": 3421,
-      "aspect": 1.4999
+      "aspect": 1.4999,
+      "thumb": "/images/thumbs/architecture/skyhotel-502-10.webp"
     },
     {
       "src": "/images/architecture/skyhotel-521-7.jpg",
       "width": 5412,
       "height": 3608,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/architecture/skyhotel-521-7.webp"
     },
     {
       "src": "/images/architecture/taghiyev-00001.jpg",
       "width": 5643,
       "height": 4703,
-      "aspect": 1.1999
+      "aspect": 1.1999,
+      "thumb": "/images/thumbs/architecture/taghiyev-00001.webp"
     }
   ],
   "fineArt": [
@@ -212,121 +246,141 @@
       "src": "/images/fine-art/10640393.jpg",
       "width": 3000,
       "height": 4000,
-      "aspect": 0.75
+      "aspect": 0.75,
+      "thumb": "/images/thumbs/fine-art/10640393.webp"
     },
     {
       "src": "/images/fine-art/11071352.jpg",
       "width": 2137,
       "height": 1543,
-      "aspect": 1.385
+      "aspect": 1.385,
+      "thumb": "/images/thumbs/fine-art/11071352.webp"
     },
     {
       "src": "/images/fine-art/11150306.jpg",
       "width": 3500,
       "height": 2333,
-      "aspect": 1.5002
+      "aspect": 1.5002,
+      "thumb": "/images/thumbs/fine-art/11150306.webp"
     },
     {
       "src": "/images/fine-art/12557294.jpg",
       "width": 2336,
       "height": 3499,
-      "aspect": 0.6676
+      "aspect": 0.6676,
+      "thumb": "/images/thumbs/fine-art/12557294.webp"
     },
     {
       "src": "/images/fine-art/1986060.jpg",
       "width": 2000,
       "height": 1333,
-      "aspect": 1.5004
+      "aspect": 1.5004,
+      "thumb": "/images/thumbs/fine-art/1986060.webp"
     },
     {
       "src": "/images/fine-art/2018919.jpg",
       "width": 1333,
       "height": 2000,
-      "aspect": 0.6665
+      "aspect": 0.6665,
+      "thumb": "/images/thumbs/fine-art/2018919.webp"
     },
     {
       "src": "/images/fine-art/2046748.jpg",
       "width": 2000,
       "height": 1166,
-      "aspect": 1.7153
+      "aspect": 1.7153,
+      "thumb": "/images/thumbs/fine-art/2046748.webp"
     },
     {
       "src": "/images/fine-art/3232638.jpg",
       "width": 2880,
       "height": 4212,
-      "aspect": 0.6838
+      "aspect": 0.6838,
+      "thumb": "/images/thumbs/fine-art/3232638.webp"
     },
     {
       "src": "/images/fine-art/3790954.jpg",
       "width": 1302,
       "height": 1800,
-      "aspect": 0.7233
+      "aspect": 0.7233,
+      "thumb": "/images/thumbs/fine-art/3790954.webp"
     },
     {
       "src": "/images/fine-art/4781281.jpg",
       "width": 1800,
       "height": 1800,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/4781281.webp"
     },
     {
       "src": "/images/fine-art/5371960.jpg",
       "width": 1600,
       "height": 1162,
-      "aspect": 1.3769
+      "aspect": 1.3769,
+      "thumb": "/images/thumbs/fine-art/5371960.webp"
     },
     {
       "src": "/images/fine-art/6109930.jpg",
       "width": 1400,
       "height": 1400,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/6109930.webp"
     },
     {
       "src": "/images/fine-art/6113986.jpg",
       "width": 2048,
       "height": 2048,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/6113986.webp"
     },
     {
       "src": "/images/fine-art/6209111.jpg",
       "width": 3888,
       "height": 3888,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/6209111.webp"
     },
     {
       "src": "/images/fine-art/6474845.jpg",
       "width": 1600,
       "height": 1600,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/6474845.webp"
     },
     {
       "src": "/images/fine-art/6862421.jpg",
       "width": 3500,
       "height": 2333,
-      "aspect": 1.5002
+      "aspect": 1.5002,
+      "thumb": "/images/thumbs/fine-art/6862421.webp"
     },
     {
       "src": "/images/fine-art/7720858.jpg",
       "width": 3464,
       "height": 3464,
-      "aspect": 1.0
+      "aspect": 1.0,
+      "thumb": "/images/thumbs/fine-art/7720858.webp"
     },
     {
       "src": "/images/fine-art/9579671.jpg",
       "width": 3500,
       "height": 2333,
-      "aspect": 1.5002
+      "aspect": 1.5002,
+      "thumb": "/images/thumbs/fine-art/9579671.webp"
     },
     {
       "src": "/images/fine-art/fool-mooon-logo.jpg",
       "width": 4340,
       "height": 2364,
-      "aspect": 1.8359
+      "aspect": 1.8359,
+      "thumb": "/images/thumbs/fine-art/fool-mooon-logo.webp"
     },
     {
       "src": "/images/fine-art/img-0858-hdr.jpg",
       "width": 5415,
       "height": 3610,
-      "aspect": 1.5
+      "aspect": 1.5,
+      "thumb": "/images/thumbs/fine-art/img-0858-hdr.webp"
     }
   ]
 }

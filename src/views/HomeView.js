@@ -20,7 +20,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
       <div id="home-slideshow" class="absolute inset-0 z-0 bg-black">
         ${slides.map((s, idx) => `
           <div class="home-slide absolute inset-0 transition-opacity duration-1000 ease-in-out ${idx === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'}" data-slide="${idx}">
-            <img src="${s.src}" alt="Faik Nagiyev Masterwork" class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.08]">
+            <img src="${s.thumb || s.src}" alt="Faik Nagiyev Masterwork" class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.08]" loading="${idx === 0 ? 'eager' : 'lazy'}" decoding="async">
           </div>
         `).join('')}
         <!-- Subtle Vignette Overlay -->
@@ -51,7 +51,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
             <div class="relative aspect-[16/10] overflow-hidden bg-black">
               ${slides.map((s, idx) => `
                 <div class="hero-frame-slide absolute inset-0 transition-opacity duration-700 ease-in-out ${idx === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'}" data-frame-slide="${idx}">
-                  <img src="${s.src}" alt="Faik Nagiyev Masterwork" class="w-full h-full object-cover object-center filter brightness-100 contrast-[1.05]">
+                  <img src="${s.thumb || s.src}" alt="Faik Nagiyev Masterwork" class="w-full h-full object-cover object-center filter brightness-100 contrast-[1.05]" loading="${idx === 0 ? 'eager' : 'lazy'}" decoding="async">
                 </div>
               `).join('')}
             </div>
@@ -85,7 +85,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           <!-- Card 1: Architecture -->
           <a href="#/architecture" class="group relative overflow-hidden h-28 sm:h-36 bg-[#101217]">
-            <img src="/images/architecture/baku-night.jpg" alt="Spaces & Architecture" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500">
+            <img src="/images/thumbs/architecture/baku-night.webp" alt="Spaces & Architecture" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500" loading="lazy" decoding="async">
             <div class="absolute inset-0 p-4 flex flex-col justify-between z-10">
               <span class="text-[10px] font-mono text-[var(--color-accent)] tracking-widest uppercase">01 / ARCHITECTURE</span>
               <span class="text-xs sm:text-sm font-display font-bold text-white tracking-wider uppercase group-hover:translate-x-1 transition-transform">
@@ -96,7 +96,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
 
           <!-- Card 2: AI Staging -->
           <a href="#/ai-staging" class="group relative overflow-hidden h-28 sm:h-36 bg-[#101217]">
-            <img src="/images/before-after/case2-after.jpg" alt="AI Staging" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500">
+            <img src="/images/before-after/case2-after.jpg" alt="AI Staging" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500" loading="lazy" decoding="async">
             <div class="absolute inset-0 p-4 flex flex-col justify-between z-10">
               <span class="text-[10px] font-mono text-[var(--color-accent)] tracking-widest uppercase">02 / HYBRID AI</span>
               <span class="text-xs sm:text-sm font-display font-bold text-white tracking-wider uppercase group-hover:translate-x-1 transition-transform">
@@ -107,7 +107,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
 
           <!-- Card 3: Client Vault -->
           <a href="#/client-vault" class="group relative overflow-hidden h-28 sm:h-36 bg-[#101217]">
-            <img src="/images/client-vault/alba-hotel.png" alt="Client Vault" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500">
+            <img src="/images/client-vault/alba-hotel.png" alt="Client Vault" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500" loading="lazy" decoding="async">
             <div class="absolute inset-0 p-4 flex flex-col justify-between z-10">
               <span class="text-[10px] font-mono text-[var(--color-accent)] tracking-widest uppercase">03 / INVESTOR VAULT</span>
               <span class="text-xs sm:text-sm font-display font-bold text-white tracking-wider uppercase group-hover:translate-x-1 transition-transform">
@@ -118,7 +118,7 @@ export function renderHomeView(t, heroImages, onOpenLightbox) {
 
           <!-- Card 4: Fine Art -->
           <a href="#/fine-art" class="group relative overflow-hidden h-28 sm:h-36 bg-[#101217]">
-            <img src="/images/fine-art/fool-mooon-logo.jpg" alt="Signature Fine Art" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500">
+            <img src="/images/thumbs/fine-art/fool-mooon-logo.webp" alt="Signature Fine Art" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.5] group-hover:scale-105 group-hover:brightness-[0.7] transition-all duration-500" loading="lazy" decoding="async">
             <div class="absolute inset-0 p-4 flex flex-col justify-between z-10">
               <span class="text-[10px] font-mono text-[var(--color-accent)] tracking-widest uppercase">04 / FINE ART</span>
               <span class="text-xs sm:text-sm font-display font-bold text-white tracking-wider uppercase group-hover:translate-x-1 transition-transform">

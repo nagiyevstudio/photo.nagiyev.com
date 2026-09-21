@@ -14,7 +14,7 @@ export function createHero(t, heroImages) {
     <div id="hero-slider-bg" class="absolute inset-0 z-0 bg-black">
       ${slides.map((slide, idx) => `
         <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out ${idx === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'}" data-slide="${idx}">
-          <img src="${slide.src}" alt="Hero Background ${idx + 1}" class="w-full h-full object-cover object-center filter brightness-[0.62] contrast-[1.08] transform scale-100 transition-transform duration-[7000ms] ease-out">
+          <img src="${slide.thumb || slide.src}" alt="Hero Background ${idx + 1}" class="w-full h-full object-cover object-center filter brightness-[0.62] contrast-[1.08] transform scale-100 transition-transform duration-[7000ms] ease-out" loading="${idx === 0 ? 'eager' : 'lazy'}" decoding="async">
         </div>
       `).join('')}
       <!-- Cinematic Vignette & Readability Gradient Overlay -->

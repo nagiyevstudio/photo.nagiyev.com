@@ -82,7 +82,7 @@ export function createPortfolioGrid(t, archImages, fineArtImages, onOpenLightbox
 
   function renderRow(container, row, rowHeight, gap, isLastRow = false) {
     const rowEl = document.createElement('div');
-    rowEl.className = 'w-full flex items-center mb-3';
+    rowEl.className = 'w-full flex items-center';
     rowEl.style.gap = gap + 'px';
 
     row.forEach(item => {
@@ -95,9 +95,10 @@ export function createPortfolioGrid(t, archImages, fineArtImages, onOpenLightbox
 
       div.innerHTML = `
         <img 
-          src="${item.src}" 
+          src="${item.thumb || item.src}" 
           alt="Photography by Faik Nagiyev" 
           loading="lazy"
+          decoding="async"
           class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
         />
         <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-center justify-center">
